@@ -1,80 +1,59 @@
-# Freelancer
+# Freelancer- Start Bootstrap
 
-* **Track:** _Common Core_
-* **Curso:** _Creando tu primer sitio web interactivo_
-* **Unidad:** _Maquetado web con HTML & CSS_
+## Descripcion:
 
-***
+Portafolio en linea para diseñador. La pagina esta dividida por tres elementos que mostraran al usuario de un manera sencilla y limpia, el portafolio de diseño, informacion del diseñador y un formulario de contacto.
 
-Para completar este reto, hemos creado este repositorio boilerplate (plantilla
-inicial) con todos los recursos que necesitas. Esto incluye imágenes y
-estructura de carpetas y archivos donde colocarás tu código.
+## Pseudocodigo.
 
-## Flujo de trabajo
+Al ingresar a la pagina, lo primero que se mostrara en pantalla sera el header con accesos dentro de la misma pagina a las diferentes secciones: Portafolio, informacion extra y contacto, tambien podra accesar a la informacion poro medio de scroll.
 
-1. Debes realizar un [**fork**](https://gist.github.com/ivandevp/1de47ae69a5e139a6622d78c882e1f74)
-   de este repositorio.
+### Desarrollo:
 
-2. Luego deberás **clonar** tu fork en tu máquina. Recuerda que el comando a usar
-   es `git clone` y su estructura normalmente se ve así:
+La pagina debera encriptar o descifrar un mensaje dado por el usuario, siguiendo el proceso siguiente:
 
-   ```bash
-   git clone https://github.com/<nombre-de-usuario>/freelancer.git
-   ```
+**Compuesta por 7 cajas:** *<section>*
 
-## Objetivo
+   1. **Navigador** *<nav>*
+      - Titulo: Start Bootstrap.
+      - Opciones de navegacion.
+        Links en la misma pagina.
+        Subrayado en verde al pasar el mouse.
+        Subrayar en cuadrado verde al hacer click, señalador de index.
 
-El reto consiste en replicar el sitio de **Freelancer**, este será el resultado
-a lograr:
+   2. **Portada** *<cover>*
+      - Foto profile.
+        Fija, centrada, en circulo.
+      - Nombre}
+      - Icono adorno separador.
+      - Titulo profesional.
 
-![Freelancer Website](docs/fullpage.png)
+   3. **Portfolio** *<port>*
+      - "Portfolio" tittle.
+      - Icono divisor.
+      - Seis imagenes.
+        Cada iamgen tiene opcion de zoom en pop-up con doble opcion close.
 
-## Consideraciones
+   4. **About** *<about>*
+      - "About" title.
+      - Icono divisor.
+      - Texto informmativo en dos columnas justificadas.
+      - Boton de descarga.
+        Icono descarga y "Donload Now!" message dentro de boton.
+        Subrayado en blanco al pasar cursor.
 
-* Encontrarás un archivo base `index.html` en el cual deberás escribir la
-  estructura de tu proyecto y enlazar tus archivos de estilos (CSS).
+   5. **Contacto** *<form>*
+       - "Contact me" tittle.
+       - Icono divisor.
+       - Form:
+         Name, Email Adresss, Phone, Message.
+       - Boton "enviar"
 
-* En la carpeta `css` tendrás un archivo base `main.css` donde agregarás los
-  estilos necesarios para tu proyecto.
+  6. **Footer** *<footer>*
+     Formado por tres columnas:
+       - Location (direccion).
+       - Around the web ( redes sociales).   
+       - About Freelancer (descripcion del dominio).
+       - Copyright.  
 
-* Dentro de la carpeta `assets` se encuentra la carpeta `images` donde
-  encontrarás todas las imágenes necesarias para completar tu proyecto.
-
-* Deberás **actualizar el archivo `README.md`** explicando el contenido de tu
-  repositorio.
-
-* Esta web utiliza 2 tipografías: `Montserrat` y `Lato`.
-
-* La paleta de colores puedes obtenerla inspeccionado el sitio original, pero
-  para ganar tiempo, puedes usar los siguientes: `#2c3e50`, `#18bc9c`,
-  `#212529`.
-
-* Los íconos de redes sociales puedes obtenerlos de [Font Awesome](http://fontawesome.io/).
-
-* Para este reto, encontrarás ciertas cosas que probablemente aun no has visto
-  en clase (formularios). No te preocupes, estamos seguros que lo afrontarás con
-  éxito, de igual forma aquí unos tips:
-
-  - Para el formulario, revisa las etiquetas como `form`, `input`, `button`.
-
-* El subrayado que incluye la estrella en las diversas secciones del sitio, en
-  la web original se hace con un ícono y pseudoelementos (`:after`, `:before`),
-  es un reto entretenido, sin embargo, no trates de enfocarte en esa parte desde
-  un inicio ya que no es el objetivo principal del reto :)
-
-* Puedes ver el [sitio original](https://blackrockdigital.github.io/startbootstrap-freelancer/)
-  para que te des una idea de como debe quedar.
-
-  > Nota: El sitio original tiene ciertos efectos y funcionalidades que
-están fuera del alcance de este reto. Enfócate en obtener la maquetación
-lo más parecido posible, usando lo aprendido en clase ;)
-
-## A tener en cuenta
-
-Este reto será evaluado sobre lo siguiente:
-
-* Pixel perfect (replicar el diseño con exactitud)
-* Nombramiento de clases, id, etc
-* Indentación
-* Archivo `README.md` actualizado y correctamente redactado
-* Uso de comentarios para hacer tu código más legible
+## Diagrama de flujo

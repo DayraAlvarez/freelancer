@@ -1,3 +1,36 @@
-/*
- * Estilos de tu proyecto
- */
+body{
+  background-color: #e8d2ff;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  margin:auto;
+}
+
+nav {
+  background-color: #2C3E50;
+}
+
+.cover {
+  background-color: #18BC9C;
+}
+
+#white-divisor {
+  height: 2em;
+  width: 2em;
+}
+
+#black-divisor {
+  height: 2em;
+  width: 2em;
+}
+
+.port {
+  background-color: white;
+  color: black;
+}
+
+.column{
+
+}
+
+.column:hover {
+}
