@@ -10,8 +10,6 @@ Al ingresar a la pagina, lo primero que se mostrara en pantalla sera el header c
 
 ### Desarrollo:
 
-La pagina debera encriptar o descifrar un mensaje dado por el usuario, siguiendo el proceso siguiente:
-
 **Compuesta por 7 cajas:** *<section>*
 
    1. **Navigador** *<nav>*
